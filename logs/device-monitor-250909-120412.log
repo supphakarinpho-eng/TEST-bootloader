@@ -1,0 +1,29 @@
+12:04:12.322 > ets Jul 29 2019 12:21:46
+12:04:12.322 > 
+12:04:12.322 > rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+12:04:12.328 > configsip: 0, SPIWP:0xee
+12:04:12.331 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+12:04:12.336 > mode:DIO, clock div:2
+12:04:12.339 > load:0x3fff0030,len:1184
+12:04:12.342 > load:0x40078000,len:13232
+12:04:12.345 > load:0x40080400,len:3028
+12:04:12.345 > entry 0x400805e4
+12:04:12.478 > [     6][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+12:04:12.495 > [    23][V][esp32-hal-uart.c:330] uartBegin(): UART0 baud(115200) Mode(800001c) rxPin(3) txPin(1)
+12:04:12.506 > [    33][V][esp32-hal-uart.c:416] uartBegin(): UART0 not installed. Starting installation
+12:04:12.523 > [    44][V][esp32-hal-uart.c:467] uartBegin(): UART0 initialization done.
+12:04:12.529 > [    58][I][main.cpp:12] setup(): [TEST] Starting Program
+12:04:12.533 > [    64][W][main.cpp:13] setup(): [TEST] Early log message 20000
+12:04:12.538 > 
+12:04:12.538 > ---------------------------------
+12:04:12.544 > Firmware Build Number: 12
+12:04:12.544 > Build Date: 2025-09-09 12:04:01
+12:04:12.547 > ---------------------------------
+12:04:12.549 > 
+12:04:12.552 > Lambda expressions : age = 15
+12:04:12.552 > element 1
+12:04:12.554 > element 2
+12:04:12.554 > element 3
+12:04:12.554 > element 4
+12:04:12.558 > element 5
+12:04:12.558 > [    85][I][main.cpp:33] setup(): [TEST] Ending Program

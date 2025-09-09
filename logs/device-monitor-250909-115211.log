@@ -1,0 +1,18 @@
+11:52:11.319 > ets Jul 29 2019 12:21:46
+11:52:11.320 > 
+11:52:11.320 > rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+11:52:11.325 > configsip: 0, SPIWP:0xee
+11:52:11.328 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+11:52:11.334 > mode:DIO, clock div:2
+11:52:11.336 > load:0x3fff0030,len:1184
+11:52:11.339 > load:0x40078000,len:13232
+11:52:11.342 > load:0x40080400,len:3028
+11:52:11.342 > entry 0x400805e4
+11:52:11.483 > TEST BOOTLOADER
+11:52:11.483 > 
+11:52:11.483 > ---------------------------------
+11:52:11.486 > Firmware Build Number: 9
+11:52:11.488 > Build Date: 2025-09-09 11:51:29
+11:52:11.491 > ---------------------------------
+11:52:11.494 > 
+11:52:11.494 > Lambda expressions : age = 15Lambda expressions : age = 1Lambda expressions : age = 2Lambda expressions : age = 3Lambda expressions : age = 4Lambda expressions : age = 5

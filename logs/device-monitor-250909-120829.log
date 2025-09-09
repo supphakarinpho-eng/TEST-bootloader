@@ -1,0 +1,29 @@
+12:08:29.259 > ets Jul 29 2019 12:21:46
+12:08:29.259 > 
+12:08:29.259 > rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+12:08:29.265 > configsip: 0, SPIWP:0xee
+12:08:29.267 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+12:08:29.273 > mode:DIO, clock div:2
+12:08:29.276 > load:0x3fff0030,len:1184
+12:08:29.279 > load:0x40078000,len:13232
+12:08:29.281 > load:0x40080400,len:3028
+12:08:29.281 > entry 0x400805e4
+12:08:29.415 > [     6][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+12:08:29.432 > [    23][V][esp32-hal-uart.c:330] uartBegin(): UART0 baud(115200) Mode(800001c) rxPin(3) txPin(1)
+12:08:29.443 > [    33][V][esp32-hal-uart.c:416] uartBegin(): UART0 not installed. Starting installation
+12:08:29.459 > [    44][V][esp32-hal-uart.c:467] uartBegin(): UART0 initialization done.
+12:08:29.466 > [    58][I][main.cpp:12] setup(): [TEST] Starting Program
+12:08:29.469 > [    63][E][main.cpp:13] setup(): [TEST] Waiting for WiFi
+12:08:29.476 > 
+12:08:29.477 > ---------------------------------
+12:08:29.479 > Firmware Build Number: 14
+12:08:29.479 > Build Date: 2025-09-09 12:08:18
+12:08:29.482 > ---------------------------------
+12:08:29.488 > 
+12:08:29.488 > Lambda expressions : age = 15
+12:08:29.490 > element 1
+12:08:29.490 > element 2
+12:08:29.490 > element 3
+12:08:29.493 > element 4
+12:08:29.493 > element 5
+12:08:29.493 > [    79][I][main.cpp:32] setup(): [TEST] Ending Program
