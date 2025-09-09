@@ -12,10 +12,10 @@ void setup() {
     ESP_LOGE(TAG, "LOG ERROR");
 
     Serial.println();
-    Serial.println("---------------------------------");
-    Serial.printf("Firmware Build Number: %d\n", BUILD_NUMBER);
-    Serial.printf("Build Date: %s\n", BUILD_DATE);
-    Serial.println("---------------------------------");
+    Serial.println("\t---------------------------------");
+    Serial.printf("\tFirmware Build Number: %d\n", BUILD_NUMBER);
+    Serial.printf("\tBuild Date: %s\n", BUILD_DATE);
+    Serial.println("\t---------------------------------");
     Serial.println();
 
     constexpr auto age{15};
