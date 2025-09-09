@@ -5,11 +5,12 @@
 constexpr char TAG[] = "TEST";
 
 void setup() {
-    Serial.begin(115200);
 
+    Serial.begin(115200);
 
     ESP_LOGI(TAG, "Starting Program");
     ESP_LOGE(TAG, "LOG ERROR");
+
     Serial.println();
     Serial.println("---------------------------------");
     Serial.printf("Firmware Build Number: %d\n", BUILD_NUMBER);
@@ -23,8 +24,8 @@ void setup() {
         Serial.printf("Lambda expressions : age = %d\n", age);
     }();
 
-    constexpr int arr[] = {1, 2, 3, 4, 5};
-    for (const auto &element: arr) {
+    constexpr int number_arr[] = {1, 2, 3, 4, 5};
+    for (const auto &element: number_arr) {
         Serial.printf("element %d\n", element);
     }
 
