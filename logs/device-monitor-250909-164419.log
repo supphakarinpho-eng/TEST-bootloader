@@ -1,0 +1,19 @@
+16:44:19.453 > [    19][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+16:44:19.490 > [    55][V][esp32-hal-uart.c:330] uartBegin(): UART0 baud(115200) Mode(800001c) rxPin(3) txPin(1)
+16:44:19.500 > [    65][V][esp32-hal-uart.c:416] uartBegin(): UART0 not installed. Starting installation
+16:44:19.517 > [    76][V][esp32-hal-uart.c:467] uartBegin(): UART0 initialization done.
+16:44:19.525 > [    90][I][main.cpp:11] setup(): [TEST] Starting Program
+16:44:19.529 > [    95][E][main.cpp:12] setup(): [TEST] LOG ERROR
+16:44:19.534 > 
+16:44:19.534 > 	---------------------------------
+16:44:19.537 > 	Firmware Build Number: 10
+16:44:19.539 > 	Build Date: 2025-09-09 16:44:05
+16:44:19.542 > 	---------------------------------
+16:44:19.545 > 
+16:44:19.545 > Lambda expressions : age = 15
+16:44:19.548 > element 1
+16:44:19.549 > element 2
+16:44:19.550 > element 3
+16:44:19.551 > element 4
+16:44:19.551 > element 5
+16:44:19.552 > [   111][I][main.cpp:32] setup(): [TEST] Ending Program

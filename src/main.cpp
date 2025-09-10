@@ -25,6 +25,7 @@ void setup() {
     }();
 
     constexpr int number_arr[] = {1, 2, 3, 4, 5};
+
     for (const auto &element: number_arr) {
         Serial.printf("element %d\n", element);
     }
